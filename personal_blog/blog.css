@@ -1,0 +1,24 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: lightblue;
+}
+
+h1 {
+  color: rgb(47, 24, 131)
+}
+
+p {
+  color: rgb(55,49,44);
+  font-size: 20px;
+  line-height: 35px;
+}
+
+div {
+  padding: 20px;
+  margin: 15px;
+}
+
+.images {
+  width: 50%;
+  padding: 20px;
+}

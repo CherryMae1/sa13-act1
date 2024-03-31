@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <section id="home">
+      <h1>Welcome to My Portfolio</h1>
+      <p>
+        Welcome to my Portfolio! Down below is some more information about me, 
+        some of my work samples, as well as a form to reach out to me. I look 
+        forward to hearing from you soon!
+      </p>
+      <img
+          src="photos/it.jpg"
+            alt="IT"
+            class="images"
+        />
+      <img
+          src="photos/communication.jpg"
+          alt="Communication"
+          class="images"
+        />
+        <img
+            src="photos/support.jpg"
+            alt="Technical Support"
+            class="images"
+          />
+    </section>
+    
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Naimah Muhammad. I am obtaining a degree in Computer Science and Mathematical Sciences.
+        I have experience in Technical Support and am currently working in the IT Audit Sector as a 
+        Audit and Control Assurance Specialist. I have accquired many skills some of them as followed:
+      </p>
+      <ul>
+        <li>Programming</li>
+        <li>IT Support</li>
+        <li>Execel</li>
+        <li>Teamwork</li>
+        <li>Customer Service</li>
+      </ul>
+    </section>
+    
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <div class="gallery-item">SImple Chat Bot
+          <p>
+            Created a client and server code that was used to stimulate a chatbot.
+            Was able to handle multiple users who could leave at anytime. Also 
+            encrypted and protected users messages using AES encryption.
+            </p>
+        </div>
+        <div class="gallery-item">Blog Site 
+          <p>
+            Used HTML and CSS to create a simple Blog Site. Which 
+            includes blog posts on the page illustrating some of my life events.
+            Accquired skills in designing webpages and HTML functionality. 
+          </p>
+        </div>
+        <div class="gallery-item">Tic-Tac Toe Game
+          <p>
+            Implemented an interactive Tic-Tac Toe Game using Python that
+            takes user input and handles cases of a win, cat or a user simply 
+            forfeiting. 
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Me!</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+  </html>
